@@ -43,7 +43,8 @@
 		let currentOffset = this.dataset.offset * offSet;
 
 		// move the banners using the right css property
-		topBanners.style.right = currentOffset + "px";
+		//topBanners.style.right = currentOffset + "px";
+		TweenMax.to(topBanners, 0.7, { right: currentOffset });
 	}
 
 	//sigils.forEach(sigil => sigil.addEventListener('click', openLightbox));
