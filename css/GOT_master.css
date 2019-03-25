@@ -129,3 +129,14 @@ video {
 	margin-top: 10%;
 	border: thin solid #949393;
 }
+
+.house-info
+{
+	color: white;
+	font-size: 1.5rem;
+	margin: 20px auto 0 auto;
+	width: 70%;
+	text-align: justify;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
